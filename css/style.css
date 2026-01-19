@@ -8,6 +8,12 @@
   font-weight: <weight>;
   font-style: normal;
 }
+.text-content{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 24px;
+}
 header{
     background-image: url('../asset/hero-bg.png');
     background-size: cover;
@@ -51,4 +57,113 @@ nav ul li a{
     border-radius: 20px;
     font-size: 1rem;
     font-weight: 600;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: calc(100vh - 144px); */
+}
+.hero-hero-section{
+    background-image: url(../asset/hero-circle.png);
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    display : flex;
+    justify-content: center
+    
+}
+.new-badge {
+    background-color: #00FF88;
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: black;
+}
+.hero-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 101px;
+}
+.hero-content h1{
+    font-size: 3.75rem;
+    font-weight: 800;
+    line-height: 73px;
+    color: white;
+    margin-bottom: 8px;
+}
+.hero-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 24px;
+}
+.hero-btn{
+    display: flex;
+    gap: 8px;
+}
+.btn-spotify{
+    padding: 12px 20px;
+}
+.btn-unique{
+    border: #00FF88 2px solid;
+    background: transparent;
+    color: #00FF88;
+    padding: 12px 20px;
+}
+.contant {
+    background-color: #1A0B2E;
+    
+}
+.content-itembox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    margin: 0 200px;
+}
+.content-itembox h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 16px;
+}
+.content-itembox p{
+    line-height: 1.25rem;
+}
+hr{
+    color: #cdcbcf;
+    margin-bottom: 50px;
+}
+.content-ratingbox{
+    border-top: #230E3D 1px solid;
+    padding-top: 5rem;
+    padding-bottom: 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0 200px;
+    text-align: center;
+} 
+.content-ratingbox div h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #00FF88;
+    margin-bottom: 8px;
+}
+.content-ratingbox div p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* reason to choose section */
+.feature{
+    background-color: #230E3D;
 }
