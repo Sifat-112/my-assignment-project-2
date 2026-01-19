@@ -31,7 +31,7 @@ iframe{
     color: rgba(255, 255, 255, 0.8);
     /* margin-bottom: 24px; */
     line-height: 1.25rem;
-    margin: 12px 0;
+    /* margin: 12px 0; */
 }
 header{
     background-image: url('../asset/hero-bg.png');
@@ -40,11 +40,12 @@ header{
     height: 100vh;
 }
 nav{
+    background-color: #1A0B2E;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
-    padding: 36px 0;
+    margin: 0 12.5rem;
+    padding: 1rem 0;
 }
 nav ul{
     display: flex;
@@ -91,11 +92,12 @@ nav ul li a{
     background-repeat: no-repeat;
     display : flex;
     padding: 50px;
-    justify-content: center
+    justify-content: center;
     
 }
 .new-badge {
-    background-color: #00FF88;
+    position: absolute;
+    /* background-color: #00FF88; */
     padding: 8px 16px;
     border-radius: 20px;
     color: black;
@@ -148,7 +150,7 @@ nav ul li a{
     padding-top: 80px;
     padding-bottom: 80px;
     text-align: center;
-    margin: 0 200px;
+    /* margin: 200px 0; */
 }
 .content-itembox h1{
     font-size: 3rem;
@@ -273,4 +275,51 @@ hr{
     text-align: center; */
     color: #00FF88;
     gap: 10px;
+}
+.host-section{
+    background-color: #1A0B2E;
+    padding-bottom: 120px;
+    /* justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center; */
+}
+.host-section-contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* padding: 40px; */
+    margin: 0 200px;
+    
+}
+.host-info-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: #250e44;
+    border-radius: 0.5rem;
+    padding: 40px;
+}
+.host-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.host-name{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 8px;
+}
+.host-info-box ul{
+    display: flex;
+    gap: 16px;
+    
+}
+.host-info-box ul li{
+    list-style: none;
+    flex-direction: row;
 }
