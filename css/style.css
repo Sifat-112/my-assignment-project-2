@@ -244,13 +244,15 @@ hr{
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+
 .feature-display-video{
     display: flex;
     justify-content: center;
     align-items: start;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    margin: 0 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 12.5rem;
     gap: 10px;
 }
 .video-info{
